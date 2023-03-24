@@ -4,17 +4,15 @@
 This pipeline was developed to annotate large chemosensory gene families in insects but can easily be used for gene families that are hard to automatically annotate in general. 
   
   
-##prerequisites
+## prerequisites
 
 the pipeline requires the following programs in addition to the `perl` scripts provided in the scripts folder in the repository:    
 
-(blast+ suite)[https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html#downloadblastdata]  
+- [blast+ suite](https://blast.ncbi.nlm.nih.gov/doc/blast-help/downloadblastdata.html#downloadblastdata)
+- [exonerate](https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate)
+- [mafft](https://mafft.cbrc.jp/alignment/software/)
+- [raxml](https://cme.h-its.org/exelixis/web/software/raxml/)
 
-(exonerate)[https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate]    
-
-(mafft)[https://mafft.cbrc.jp/alignment/software/]   
-
-(raxml)[https://cme.h-its.org/exelixis/web/software/raxml/]
 
 ## general annotation pipeline 
 
