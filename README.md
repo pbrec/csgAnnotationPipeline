@@ -61,3 +61,8 @@ Combine finished annotations and genes of other species and align (step 7. and 8
 
 This command will create a tree using the rapd algorithm and 100 bootstraps. For a final tree 1000 bootstraps are more reliable to draw conclusions, so `-
 N` should be set to 1000
+
+
+## citation
+
+If you use this pipeline, please cite `Brand, P., & Ramírez, S. R. (2017). The evolutionary dynamics of the odorant receptor gene family in corbiculate bees. Genome Biology and Evolution, 9(8), 2023-2036.` The paper is available at [GBE](https://academic.oup.com/gbe/article/9/8/2023/4060519)
