@@ -4,10 +4,9 @@
 
 This pipeline 
 
-1. find scaffolds with hits using `tblastn` 
-```
-tblastn -query <query.mfa> -db <genome.db> -evalue 10E-6 -num_threads 3 -outfmt '6 qseqid sseqid length qstart qend sstart send evalue bitscore pident nident' > <tblastn_out.txt>
-```
+1. find scaffolds with hits using `tblastn`   
+
+`tblastn -query <query.mfa> -db <genome.db> -evalue 10E-6 -num_threads 3 -outfmt '6 qseqid sseqid length qstart qend sstart send evalue bitscore pident nident' > <tblastn_out.txt>`
 
 2. extract scaffolds with blast hits using `extract_fa_from_list.pl` script
 `perl extract_fa_from_list.pl <genome_scaffolds.fa> > scaffolds_with_hits.fa`
